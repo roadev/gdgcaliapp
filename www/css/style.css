@@ -1,1 +1,21 @@
 /* Empty. Add your own CSS if you like */
+
+
+I played a bit with your css.
+
+Try adding this code into your css:
+
+.col-50, .col-33 {
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.item-avatar, .item.tabs {
+  flex: 0 0 auto;
+}
+.item-body {
+  flex: 1 1 auto;
+}
