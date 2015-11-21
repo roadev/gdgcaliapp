@@ -1,9 +1,72 @@
-<ion-view view-title="Browse">
-  <body ng-app="starter" ng-controller="ListCtrl">
-    <ion-header-bar class="top">
-      <h1 class="title">Items</h1>
-      <button class="button button-icon ion-plus" ng-click="addItem()">
-      </button>
-    </ion-header-bar>
-</body>
+<!-- <ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Login</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeLogin()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form ng-submit="doLogin()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Username</span>
+          <input type="text" ng-model="loginData.username">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="loginData.password">
+        </label>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit">Log in</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view> -->
+
+<ion-view view-title="GDG Cali">
+  <ion-content>
+    <div class="list card">
+
+  <div class="item item-avatar">
+    <img src="img/tux.png">
+    <h2>CaliDevFest</h2>
+    <p>by GDG Cali</p>
+  </div>
+
+  <div class="item item-body">
+    <img class="full-image" src="/img/calidevfest.png">
+    <p>
+      El evento mas grande sobre tecnologías de desarrollo de
+      software organizado por varias comunidades de la ciudad!
+      Todo sobre Android, Web y Cloud de la mano de los expertos.
+    </p>
+    <p>
+      <a href="#" class="subdued">1 Like</a>
+      <a href="#" class="subdued">5 Comments</a>
+    </p>
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item" href="#">
+      <i class="icon ion-thumbsup"></i>
+      Like
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-chatbox"></i>
+      Comenta
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-share"></i>
+      Comparte
+    </a>
+  </div>
+
+</div>
+    <!--<ion-list>
+      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
+        {{playlist.title}}
+      </ion-item>
+    </io-list>-->
+  </ion-content>
 </ion-view>
