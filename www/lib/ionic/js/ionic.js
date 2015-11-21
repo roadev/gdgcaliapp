@@ -3510,7 +3510,7 @@ ionic.DomUtil.ready(function() {
  * - You can configure the behavior of the web view when the keyboard shows by setting
  *   [android:windowSoftInputMode](http://developer.android.com/reference/android/R.attr.html#windowSoftInputMode)
  *   to either `adjustPan`, `adjustResize` or `adjustNothing` in your app's
- *   activity in `AndroidManifest.xml`. `adjustResize` is the recommended setting
+ *   activity in `gdgcali`. `adjustResize` is the recommended setting
  *   for Ionic, but if for some reason you do use `adjustPan` you will need to
  *   set `ionic.Platform.isFullScreen = true`.
  *
